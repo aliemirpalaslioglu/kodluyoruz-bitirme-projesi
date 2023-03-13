@@ -1,0 +1,128 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background-image: url("images/istockphoto-1222542280-1024x1024\ \(1\).jpg");
+  background-size: cover;
+}
+
+
+/* Header Start */
+
+.header {
+    text-align: center;
+    padding:0px;
+    margin: 20px;
+}
+
+.header-anchor {
+    font-size: 20px;
+	text-decoration: none;
+	color:  #e8f291;
+  box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.3);
+}
+
+.display-div-h1 {
+    display: flex;
+  align-items: center;
+}
+
+.special-h1 {
+    text-align: left;
+    background-color: rgba(102, 163, 88, 1);
+    padding: 20px 20px 20px;
+    display:inline-block;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.card {
+    display: inline-block;
+    width: 5%;
+    height: 2%;
+    padding: 2%;
+    margin-right: 10%;
+    background-color: rgb(115, 192, 121);
+    border-radius: 10px;
+  }
+  
+  .header a:last-of-type {
+    background-color: rgb(115, 192, 121);
+    width: 5%;
+    padding: 2%;
+    height: 2%;
+    border-radius: 10px;
+    margin-right: 0;
+  }
+  .container a[href^="mailto:"] {
+    margin-right: 0px;
+  }
+  .email-text {
+    word-spacing: -1em; /* boşluğu ayarlamak için negatif bir değer kullanabilirsiniz */
+  }
+  /* Header End */
+  
+  /* Nav Start */
+
+.nav-p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.3);
+}
+.background-text {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(115, 192, 121);
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.3);
+}
+/* Nav End */
+
+/* Section Start */
+
+.sec-p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+/* Section End */
+
+/* Box Start */
+
+.box {
+    background-color: rgba(102, 163, 88, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(180, 100, 100, 0.397);
+    margin-bottom: 3%;
+}
+
+/* Box End */
+
+/* Footer Start */
+
+.footer {
+    background-color: rgb(115, 192, 121);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer End */
+
+
+
